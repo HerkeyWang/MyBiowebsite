@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 860" role="img" aria-labelledby="title desc">
+  <title id="title">人工智能与遥感研究</title>
+  <desc id="desc">由地球、卫星、数据网格和抽象山脉组成的科研主题插图</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbe9cf"/><stop offset=".55" stop-color="#89b99a"/><stop offset="1" stop-color="#1d5a42"/></linearGradient>
+    <radialGradient id="earth" cx="32%" cy="24%"><stop stop-color="#d7edaa"/><stop offset=".52" stop-color="#77aa74"/><stop offset="1" stop-color="#1c5a42"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#153e2e" flood-opacity=".28"/></filter>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0v54" fill="none" stroke="#fff" stroke-opacity=".12"/></pattern>
+  </defs>
+  <rect width="720" height="860" fill="url(#bg)"/>
+  <rect width="720" height="860" fill="url(#grid)"/>
+  <circle cx="370" cy="428" r="245" fill="url(#earth)" filter="url(#shadow)"/>
+  <path d="M196 326c55-74 104-103 171-123l38 42 69 9 34 52-39 47-74-11-34 47-59-4-32-33-58 16Z" fill="#d8e8a7" opacity=".88"/>
+  <path d="M264 507l54-44 66 22 45-33 85 39-4 62-43 20-18 70-82 8-39-54-64-19Z" fill="#bad68d" opacity=".74"/>
+  <path d="M148 437c146-87 314-94 450-4M162 512c151-61 301-58 423 3M232 247c89 130 100 290 33 410M380 189c53 145 42 313-27 476" fill="none" stroke="#eff8d6" stroke-opacity=".34" stroke-width="2"/>
+  <ellipse cx="370" cy="428" rx="320" ry="120" fill="none" stroke="#d8f078" stroke-width="3" stroke-dasharray="10 13" transform="rotate(-24 370 428)"/>
+  <g transform="translate(505 156) rotate(22)" filter="url(#shadow)">
+    <rect x="-40" y="-27" width="80" height="54" rx="8" fill="#173f31"/>
+    <circle cx="0" cy="0" r="13" fill="#d8f078"/>
+    <path d="M-40-18h-80v36h80m80-36h80v36H40" fill="#456f64" stroke="#d5e6d9" stroke-width="3"/>
+    <path d="M-100-18v36M-78-18v36M-56-18v36M60-18v36M82-18v36M104-18v36" stroke="#d5e6d9" stroke-width="2"/>
+  </g>
+  <g fill="#e8f6bc">
+    <circle cx="114" cy="167" r="5"/><circle cx="615" cy="346" r="4"/><circle cx="107" cy="636" r="4"/><circle cx="594" cy="681" r="6"/>
+  </g>
+  <g stroke="#e8f6bc" stroke-opacity=".7"><path d="M114 167l63 47 65-29M615 346l-52 32 31 65M107 636l77-37 43 49M594 681l-64-37-35 32" fill="none"/><g fill="#e8f6bc"><circle cx="177" cy="214" r="3"/><circle cx="242" cy="185" r="3"/><circle cx="563" cy="378" r="3"/><circle cx="594" cy="443" r="3"/><circle cx="184" cy="599" r="3"/><circle cx="227" cy="648" r="3"/><circle cx="530" cy="644" r="3"/><circle cx="495" cy="676" r="3"/></g></g>
+  <path d="M0 737 93 656l62 48 89-93 91 72 76-57 80 55 90-118 139 120v177H0Z" fill="#143e2e" opacity=".84"/>
+  <path d="m0 780 115-60 63 37 100-73 84 53 110-42 90 49 158-75v191H0Z" fill="#0d3024" opacity=".75"/>
+</svg>
