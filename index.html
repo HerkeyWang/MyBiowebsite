@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="王浩的个人科研主页，研究方向包括深度学习、计算机视觉与遥感图像分析。">
+  <meta name="theme-color" content="#f5f7f2">
+  <title>王浩｜个人科研主页</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转至主要内容</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">LM</span>
+        <span>王浩</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="打开导航菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class="nav-link active" href="#home">首页</a></li>
+        <li><a class="nav-link" href="#research">研究方向</a></li>
+        <li><a class="nav-link" href="#projects">项目展示</a></li>
+        <li><a class="nav-link" href="#contact">联系方式</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Research · Explore · Create</p>
+        <h1>你好，我是<br><strong>王浩</strong></h1>
+        <p class="hero-role">人工智能与遥感科学研究者</p>
+        <p class="hero-intro">专注于深度学习、计算机视觉与遥感图像分析，探索智能算法如何更好地理解地球观测数据。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">查看我的项目 <span aria-hidden="true">↗</span></a>
+          <a class="button text-button" href="#contact">与我联系 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta" aria-label="研究概况">
+          <div><strong>03</strong><span>研究领域</span></div>
+          <div><strong>06+</strong><span>研究项目</span></div>
+          <div><strong>12</strong><span>学术发表</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="科研主题插图">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="image-frame">
+          <img src="assets/research-visual.svg" alt="卫星遥感、神经网络与地球观测主题插图">
+        </div>
+        <div class="floating-card card-ai"><span class="pulse"></span> AI for Earth</div>
+        <div class="floating-card card-data"><strong>97.8%</strong><span>模型精度</span></div>
+      </div>
+    </section>
+
+    <section class="section research-section" id="research">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">01 / RESEARCH</p>
+            <h2>研究方向</h2>
+          </div>
+          <p>围绕视觉智能与地球观测，研究可靠、高效且具有实际价值的智能方法。</p>
+        </div>
+
+        <div class="research-grid">
+          <article class="research-card reveal">
+            <div class="card-number">01</div>
+            <div class="research-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><circle cx="12" cy="13" r="4"/><circle cx="36" cy="13" r="4"/><circle cx="24" cy="35" r="4"/><path d="M15.5 15.1 21.2 31M32.5 15.1 26.8 31M16 13h16"/></svg>
+            </div>
+            <h3>深度学习</h3>
+            <p>研究高效神经网络、自监督学习与多模态表征，让模型从复杂数据中学习更具泛化能力的知识。</p>
+            <div class="tag-list"><span>神经网络</span><span>自监督学习</span></div>
+          </article>
+
+          <article class="research-card featured reveal">
+            <div class="card-number">02</div>
+            <div class="research-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M4 24s7.5-12 20-12 20 12 20 12-7.5 12-20 12S4 24 4 24Z"/><circle cx="24" cy="24" r="6"/><path d="M24 18v12M18 24h12"/></svg>
+            </div>
+            <h3>计算机视觉</h3>
+            <p>聚焦图像理解、目标检测与语义分割，构建能够感知并解释真实世界视觉信息的智能系统。</p>
+            <div class="tag-list"><span>目标检测</span><span>语义分割</span></div>
+          </article>
+
+          <article class="research-card reveal">
+            <div class="card-number">03</div>
+            <div class="research-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="15"/><path d="M9 24h30M24 9c5 5 7 10 7 15s-2 10-7 15c-5-5-7-10-7-15s2-10 7-15Z"/><path d="m35 8 5-3-1 6"/></svg>
+            </div>
+            <h3>遥感图像分析</h3>
+            <p>融合卫星与航空影像开展地物识别、变化检测和环境监测，以智能技术服务可持续发展。</p>
+            <div class="tag-list"><span>变化检测</span><span>地球观测</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">02 / PROJECTS</p>
+            <h2>精选项目</h2>
+          </div>
+          <p>从算法研究到实际应用，尝试让每个想法都成为可验证、可落地的成果。</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-visual visual-city">
+              <div class="scan-line"></div>
+              <span>PROJECT 01</span>
+              <div class="city-blocks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">遥感影像 · 变化检测</p>
+              <h3>城市变化智能感知系统</h3>
+              <p>基于多时相卫星影像与孪生神经网络，自动定位城市建设和土地覆盖变化区域，为城市规划提供数据支持。</p>
+              <ul class="project-stats"><li><strong>92.4%</strong><span>F1 Score</span></li><li><strong>3×</strong><span>效率提升</span></li></ul>
+              <a href="#contact" class="project-link">了解项目 <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reverse reveal">
+            <div class="project-visual visual-forest">
+              <span>PROJECT 02</span>
+              <div class="forest-map" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">计算机视觉 · 生态监测</p>
+              <h3>森林地物精细分割平台</h3>
+              <p>结合高分辨率无人机影像和轻量级语义分割模型，实现林木、道路与水体的精细识别和快速制图。</p>
+              <ul class="project-stats"><li><strong>95.1%</strong><span>mIoU</span></li><li><strong>28ms</strong><span>推理速度</span></li></ul>
+              <a href="#contact" class="project-link">了解项目 <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-cloud">
+              <span>PROJECT 03</span>
+              <div class="cloud-shape cloud-a"></div><div class="cloud-shape cloud-b"></div>
+              <div class="satellite" aria-hidden="true">◆<i></i><b></b></div>
+            </div>
+            <div class="project-content">
+              <p class="project-type">深度学习 · 图像复原</p>
+              <h3>遥感影像智能去云模型</h3>
+              <p>利用生成式深度学习重建云层遮挡区域，在保持光谱一致性的同时恢复清晰地表信息，提升影像利用率。</p>
+              <ul class="project-stats"><li><strong>31.6dB</strong><span>PSNR</span></li><li><strong>0.94</strong><span>SSIM</span></li></ul>
+              <a href="#contact" class="project-link">了解项目 <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="section-index light">03 / CONTACT</p>
+          <h2>让我们一起探索<br>智能科学的边界。</h2>
+          <p>欢迎就学术研究、项目合作或任何有趣的想法与我交流。</p>
+        </div>
+        <div class="contact-details reveal">
+          <a href="mailto:mingyuan.li@example.com"><span>邮箱</span><strong>mingyuan.li@example.com</strong><b>↗</b></a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span><strong>github.com/mingyuan-li</strong><b>↗</b></a>
+          <div><span>地址</span><strong>中国 · 北京</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="current-year"></span> 王浩. All rights reserved.</p>
+      <a href="#top">回到顶部 ↑</a>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
